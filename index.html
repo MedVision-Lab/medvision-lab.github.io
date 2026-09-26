@@ -1,112 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MedVision Lab</title>
+<section id="home"
+         class="hero">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <div class="container hero-content">
 
-<body>
 
-<header>
-    <div class="container navbar">
+        <div class="hero-badge"
+             data-i18n="hero.badge">
 
-        <div class="logo">
+            Medical AI Research
+
+        </div>
+
+
+
+        <h1>
+
+            <span data-i18n="hero.title1">
+
+                Advancing Medicine
+
+            </span>
+
+            <br>
+
+            <span class="gradient-text"
+                  data-i18n="hero.title2">
+
+                Through Intelligent Vision
+
+            </span>
+
+        </h1>
+
+
+
+        <p class="hero-description"
+           data-i18n="hero.description">
+
+            MedVision Lab explores artificial intelligence
+            for medical imaging and computational pathology.
+
+        </p>
+
+
+
+        <div class="hero-buttons">
+
+            <a href="#research"
+               class="button primary-button"
+               data-i18n="hero.research_button">
+
+                Explore Our Research
+
+            </a>
+
+
+            <a href="#projects"
+               class="button secondary-button"
+               data-i18n="hero.project_button">
+
+                View Projects
+
+            </a>
+
+        </div>
+
+
+
+        <div class="hero-keywords">
+
+            <span data-i18n="keywords.one">
+                Medical Imaging
+            </span>
+
+            <span data-i18n="keywords.two">
+                Computational Pathology
+            </span>
+
+            <span data-i18n="keywords.three">
+                Multimodal AI
+            </span>
+
+            <span data-i18n="keywords.four">
+                Precision Medicine
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section id="about"
+         class="section">
+
+    <div class="container">
+
+
+        <div class="section-label"
+             data-i18n="about.label">
+
+            ABOUT US
+
+        </div>
+
+
+        <h2 class="section-title"
+            data-i18n="about.title">
+
             MedVision Lab
-        </div>
 
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">People</a>
-            <a href="#">Research</a>
-            <a href="#">Publications</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </nav>
-
-    </div>
-</header>
+        </h2>
 
 
-<section class="hero">
 
-    <div class="container">
+        <div class="about-grid">
 
-        <h1>MedVision Lab</h1>
+            <p class="large-text"
+               data-i18n="about.intro">
 
-        <p>
-            Medical Imaging · Computational Pathology · Artificial Intelligence
-        </p>
+                We develop artificial intelligence
+                technologies for understanding medical images.
 
-    </div>
-
-</section>
+            </p>
 
 
-<section class="section">
+            <p data-i18n="about.description">
 
-    <div class="container">
+                Our research combines deep learning,
+                computational pathology and medical image analysis.
 
-        <h2>About Us</h2>
-
-        <p>
-            MedVision Lab focuses on artificial intelligence for medical imaging
-            and computational pathology. Our research explores intelligent
-            algorithms for medical image analysis, multimodal learning,
-            virtual staining, and quantitative pathology.
-        </p>
-
-    </div>
-
-</section>
-
-
-<section class="section">
-
-    <div class="container">
-
-        <h2>Research</h2>
-
-        <div class="cards">
-
-            <div class="card">
-
-                <h3>Computational Pathology</h3>
-
-                <p>
-                    Artificial intelligence methods for pathological image
-                    analysis and quantitative tissue characterization.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>Virtual Staining</h3>
-
-                <p>
-                    Cross-modal generation and virtual staining between
-                    H&E and immunohistochemistry images.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>Medical Image Analysis</h3>
-
-                <p>
-                    Deep learning methods for segmentation, recognition,
-                    and multimodal medical image understanding.
-                </p>
-
-            </div>
+            </p>
 
         </div>
 
@@ -115,16 +147,430 @@
 </section>
 
 
-<footer>
+
+
+<section id="research"
+         class="section section-light">
 
     <div class="container">
 
-        © 2026 MedVision Lab
+
+        <div class="section-label"
+             data-i18n="research.label">
+
+            RESEARCH
+
+        </div>
+
+
+        <h2 class="section-title"
+            data-i18n="research.title">
+
+            Research Directions
+
+        </h2>
+
+
+        <p class="section-subtitle"
+           data-i18n="research.subtitle">
+
+            Artificial intelligence research in medicine.
+
+        </p>
+
+
+
+        <div class="cards research-grid">
+
+            {% for research in site.data.research %}
+        
+            <article class="card"
+                     id="{{ research.id }}">
+        
+                <div class="card-number">
+        
+                    {{ research.number }}
+        
+                </div>
+        
+        
+                <h3
+                    data-lang-en="{{ research.title.en }}"
+                    data-lang-zh="{{ research.title.zh }}"
+                    data-lang-ja="{{ research.title.ja }}">
+        
+                    {{ research.title.en }}
+        
+                </h3>
+        
+        
+                <p
+                    data-lang-en="{{ research.description.en }}"
+                    data-lang-zh="{{ research.description.zh }}"
+                    data-lang-ja="{{ research.description.ja }}">
+        
+                    {{ research.description.en }}
+        
+                </p>
+        
+            </article>
+        
+            {% endfor %}
+        
+        </div>
 
     </div>
 
-</footer>
+</section>
 
-</body>
 
-</html>
+
+
+<section id="projects"
+         class="section">
+
+    <div class="container">
+
+
+        <div class="section-label"
+             data-i18n="projects.label">
+
+            PROJECTS
+
+        </div>
+
+
+        <h2 class="section-title"
+            data-i18n="projects.title">
+
+            Selected Projects
+
+        </h2>
+
+
+
+        <div class="project-grid">
+
+
+            {% for project in site.data.projects limit:3 %}
+
+
+            <article class="project-card">
+
+
+                <div class="project-placeholder">
+
+                    <span
+                        data-lang-en="{{ project.category.en }}"
+                        data-lang-zh="{{ project.category.zh }}"
+                        data-lang-ja="{{ project.category.ja }}">
+
+                        {{ project.category.en }}
+
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-content">
+
+
+                    <span class="project-tag"
+                          data-lang-en="{{ project.category.en }}"
+                          data-lang-zh="{{ project.category.zh }}"
+                          data-lang-ja="{{ project.category.ja }}">
+
+                        {{ project.category.en }}
+
+                    </span>
+
+
+
+                    <h3
+                        data-lang-en="{{ project.title.en }}"
+                        data-lang-zh="{{ project.title.zh }}"
+                        data-lang-ja="{{ project.title.ja }}">
+
+                        {{ project.title.en }}
+
+                    </h3>
+
+
+
+                    <p
+                        data-lang-en="{{ project.description.en }}"
+                        data-lang-zh="{{ project.description.zh }}"
+                        data-lang-ja="{{ project.description.ja }}">
+
+                        {{ project.description.en }}
+
+                    </p>
+
+
+
+                    <a href="{{ project.url | relative_url }}"
+                       class="text-link"
+                       data-i18n="projects.learn_more">
+
+                        Learn more →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section id="publications"
+         class="section section-light">
+
+    <div class="container">
+
+
+        <div class="section-label"
+             data-i18n="publications.label">
+
+            PUBLICATIONS
+
+        </div>
+
+
+        <h2 class="section-title"
+            data-i18n="publications.title">
+
+            Selected Publications
+
+        </h2>
+
+
+
+        <div class="publication-list">
+
+
+            {% for paper in site.data.publications limit:3 %}
+
+
+            <article class="publication">
+
+
+                <div class="publication-year">
+
+                    {{ paper.year }}
+
+                </div>
+
+
+                <div>
+
+
+                    <h3>
+
+                        {{ paper.title }}
+
+                    </h3>
+
+
+                    <p>
+
+                        {{ paper.authors }}
+
+                    </p>
+
+
+                    <span>
+
+                        {{ paper.venue }}
+
+                    </span>
+
+
+                </div>
+
+
+            </article>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section id="people"
+         class="section">
+
+    <div class="container">
+
+
+        <div class="section-label"
+             data-i18n="people.label">
+
+            PEOPLE
+
+        </div>
+
+
+        <h2 class="section-title"
+            data-i18n="people.title">
+
+            Our Team
+
+        </h2>
+
+
+        <p class="section-subtitle"
+           data-i18n="people.description">
+
+            Researchers working at the intersection
+            of medicine and artificial intelligence.
+
+        </p>
+
+
+        <a href="{{ '/people.html' | relative_url }}"
+           class="button secondary-button"
+           data-i18n="people.button">
+
+            Meet the Team
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section section-light">
+
+    <div class="container">
+
+
+        <div class="section-label"
+             data-i18n="news.label">
+
+            NEWS
+
+        </div>
+
+
+        <h2 class="section-title"
+            data-i18n="news.title">
+
+            Latest News
+
+        </h2>
+
+
+
+        <div class="news-list">
+
+
+            {% for news in site.data.news %}
+
+
+            <article class="news-item">
+
+
+                <time>
+
+                    {{ news.date }}
+
+                </time>
+
+
+                <p
+                    data-lang-en="{{ news.text.en }}"
+                    data-lang-zh="{{ news.text.zh }}"
+                    data-lang-ja="{{ news.text.ja }}">
+
+                    {{ news.text.en }}
+
+                </p>
+
+
+            </article>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section id="contact"
+         class="contact-section">
+
+    <div class="container contact-content">
+
+
+        <div>
+
+
+            <div class="section-label light-label"
+                 data-i18n="contact.label">
+
+                CONTACT
+
+            </div>
+
+
+            <h2 data-i18n="contact.title">
+
+                Let's explore the future of medical AI.
+
+            </h2>
+
+
+        </div>
+
+
+        <div class="contact-info">
+
+
+            <p data-i18n="contact.description">
+
+                We welcome academic collaboration.
+
+            </p>
+
+
+            <a href="mailto:your-email@example.com">
+
+                your-email@example.com
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>

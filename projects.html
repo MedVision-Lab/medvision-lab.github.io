@@ -1,0 +1,107 @@
+---
+layout: default
+title: Projects
+permalink: /projects.html
+---
+
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <div class="section-label"
+             data-i18n="projects.label">
+
+            PROJECTS
+
+        </div>
+
+        <h1 data-i18n="projects.title">
+
+            Selected Projects
+
+        </h1>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section">
+
+    <div class="container">
+
+
+        <div class="project-grid">
+
+
+            {% for project in site.data.projects %}
+
+
+            <article class="project-card"
+                     id="{{ project.id }}">
+
+
+                <div class="project-placeholder">
+
+                    <span
+                        data-lang-en="{{ project.category.en }}"
+                        data-lang-zh="{{ project.category.zh }}"
+                        data-lang-ja="{{ project.category.ja }}">
+
+                        {{ project.category.en }}
+
+                    </span>
+
+                </div>
+
+
+                <div class="project-content">
+
+
+                    <span class="project-tag"
+                          data-lang-en="{{ project.category.en }}"
+                          data-lang-zh="{{ project.category.zh }}"
+                          data-lang-ja="{{ project.category.ja }}">
+
+                        {{ project.category.en }}
+
+                    </span>
+
+
+                    <h3
+                        data-lang-en="{{ project.title.en }}"
+                        data-lang-zh="{{ project.title.zh }}"
+                        data-lang-ja="{{ project.title.ja }}">
+
+                        {{ project.title.en }}
+
+                    </h3>
+
+
+                    <p
+                        data-lang-en="{{ project.description.en }}"
+                        data-lang-zh="{{ project.description.zh }}"
+                        data-lang-ja="{{ project.description.ja }}">
+
+                        {{ project.description.en }}
+
+                    </p>
+
+
+                </div>
+
+
+            </article>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</section>

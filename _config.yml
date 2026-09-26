@@ -1,0 +1,16 @@
+title: "MedVision Lab"
+
+description: >
+  Medical Imaging · Computational Pathology · Artificial Intelligence
+
+url: "https://medvision-lab.github.io"
+baseurl: ""
+
+markdown: kramdown
+
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

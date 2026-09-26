@@ -1,0 +1,132 @@
+---
+layout: default
+title: Publications
+permalink: /publications.html
+---
+
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <div class="section-label"
+             data-i18n="publications.label">
+
+            PUBLICATIONS
+
+        </div>
+
+        <h1 data-i18n="publications.title">
+
+            Selected Publications
+
+        </h1>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section">
+
+    <div class="container">
+
+
+        <div class="publication-list">
+
+
+            {% for paper in site.data.publications %}
+
+
+            <article class="publication">
+
+
+                <div class="publication-year">
+
+                    {{ paper.year }}
+
+                </div>
+
+
+                <div>
+
+
+                    <h3>
+
+                        {{ paper.title }}
+
+                    </h3>
+
+
+                    <p>
+
+                        {{ paper.authors }}
+
+                    </p>
+
+
+                    <span>
+
+                        {{ paper.venue }}
+
+                    </span>
+
+
+                    <div class="publication-links">
+
+
+                        {% if paper.paper != "" %}
+
+                        <a href="{{ paper.paper }}">
+                            PDF
+                        </a>
+
+                        {% endif %}
+
+
+                        {% if paper.code != "" %}
+
+                        <a href="{{ paper.code }}">
+                            Code
+                        </a>
+
+                        {% endif %}
+
+
+                        {% if paper.project != "" %}
+
+                        <a href="{{ paper.project }}">
+                            Project
+                        </a>
+
+                        {% endif %}
+
+
+                        {% if paper.doi != "" %}
+
+                        <a href="{{ paper.doi }}">
+                            DOI
+                        </a>
+
+                        {% endif %}
+
+
+                    </div>
+
+
+                </div>
+
+
+            </article>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,26 @@
+- year: 2026
+  title: "Paper A"
+  authors: "Author A, Author B, Author C"
+  venue: "Journal / Conference A"
+  paper: "#"
+  code: "#"
+  project: "#"
+  doi: ""
+
+- year: 2026
+  title: "Paper B"
+  authors: "Author A, Author B"
+  venue: "Journal / Conference B"
+  paper: "#"
+  code: "#"
+  project: ""
+  doi: ""
+
+- year: 2025
+  title: "Paper C"
+  authors: "Author A, Author B"
+  venue: "Journal / Conference C"
+  paper: "#"
+  code: ""
+  project: ""
+  doi: ""

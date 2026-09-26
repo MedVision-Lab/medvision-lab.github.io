@@ -1,0 +1,22 @@
+- date: "Sep 2026"
+
+  text:
+    en: "News item A."
+    zh: "新闻 A。"
+    ja: "ニュース A。"
+
+
+- date: "Aug 2026"
+
+  text:
+    en: "News item B."
+    zh: "新闻 B。"
+    ja: "ニュース B。"
+
+
+- date: "Jul 2026"
+
+  text:
+    en: "News item C."
+    zh: "新闻 C。"
+    ja: "ニュース C。"

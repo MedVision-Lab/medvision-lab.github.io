@@ -1,0 +1,70 @@
+- id: "project-a"
+
+  title:
+    en: "Project A"
+    zh: "项目 A"
+    ja: "プロジェクト A"
+
+  category:
+    en: "Research Area A"
+    zh: "研究方向 A"
+    ja: "研究分野 A"
+
+  description:
+    en: >
+      Brief description of Project A.
+    zh: >
+      项目 A 的简要介绍。
+    ja: >
+      プロジェクト A の概要。
+
+  image: ""
+  url: "/projects.html#project-a"
+
+
+- id: "project-b"
+
+  title:
+    en: "Project B"
+    zh: "项目 B"
+    ja: "プロジェクト B"
+
+  category:
+    en: "Research Area B"
+    zh: "研究方向 B"
+    ja: "研究分野 B"
+
+  description:
+    en: >
+      Brief description of Project B.
+    zh: >
+      项目 B 的简要介绍。
+    ja: >
+      プロジェクト B の概要。
+
+  image: ""
+  url: "/projects.html#project-b"
+
+
+- id: "project-c"
+
+  title:
+    en: "Project C"
+    zh: "项目 C"
+    ja: "プロジェクト C"
+
+  category:
+    en: "Research Area C"
+    zh: "研究方向 C"
+    ja: "研究分野 C"
+
+  description:
+    en: >
+      Brief description of Project C.
+    zh: >
+      项目 C 的简要介绍。
+    ja: >
+      プロジェクト C の概要。
+
+  image: ""
+  url: "/projects.html#project-c"

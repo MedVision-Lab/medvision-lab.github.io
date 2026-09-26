@@ -1,0 +1,54 @@
+- id: "research-a"
+  number: "01"
+
+  title:
+    en: "Research Area A"
+    zh: "研究方向 A"
+    ja: "研究分野 A"
+
+  description:
+    en: "Description of Research Area A."
+    zh: "研究方向 A 的介绍。"
+    ja: "研究分野 A の紹介。"
+
+
+- id: "research-b"
+  number: "02"
+
+  title:
+    en: "Research Area B"
+    zh: "研究方向 B"
+    ja: "研究分野 B"
+
+  description:
+    en: "Description of Research Area B."
+    zh: "研究方向 B 的介绍。"
+    ja: "研究分野 B の紹介。"
+
+
+- id: "research-c"
+  number: "03"
+
+  title:
+    en: "Research Area C"
+    zh: "研究方向 C"
+    ja: "研究分野 C"
+
+  description:
+    en: "Description of Research Area C."
+    zh: "研究方向 C 的介绍。"
+    ja: "研究分野 C の紹介。"
+
+
+- id: "research-d"
+  number: "04"
+
+  title:
+    en: "Research Area D"
+    zh: "研究方向 D"
+    ja: "研究分野 D"
+
+  description:
+    en: "Description of Research Area D."
+    zh: "研究方向 D 的介绍。"
+    ja: "研究分野 D の紹介。"

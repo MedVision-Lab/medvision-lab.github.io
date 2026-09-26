@@ -1,0 +1,309 @@
+---
+layout: default
+title: People
+permalink: /people.html
+---
+
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <div class="section-label"
+             data-i18n="people.label">
+
+            PEOPLE
+
+        </div>
+
+        <h1 data-i18n="people.title">
+
+            Our Team
+
+        </h1>
+
+        <p data-i18n="people.description">
+
+            Researchers working at the intersection
+            of medicine and artificial intelligence.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section">
+
+    <div class="container">
+
+        <h2 class="section-title"
+            data-i18n="people.pi">
+
+            Principal Investigator
+
+        </h2>
+
+
+        {% for person in site.data.people.pi %}
+
+
+        <div class="pi-card">
+
+
+            <div class="person-photo-placeholder">
+
+                PI
+
+            </div>
+
+
+            <div class="pi-info">
+
+
+                <h3
+                    data-lang-en="{{ person.name.en }}"
+                    data-lang-zh="{{ person.name.zh }}"
+                    data-lang-ja="{{ person.name.ja }}">
+
+                    {{ person.name.en }}
+
+                </h3>
+
+
+                <div class="person-role"
+                     data-lang-en="{{ person.role.en }}"
+                     data-lang-zh="{{ person.role.zh }}"
+                     data-lang-ja="{{ person.role.ja }}">
+
+                    {{ person.role.en }}
+
+                </div>
+
+
+                <p class="person-affiliation"
+                   data-lang-en="{{ person.affiliation.en }}"
+                   data-lang-zh="{{ person.affiliation.zh }}"
+                   data-lang-ja="{{ person.affiliation.ja }}">
+
+                    {{ person.affiliation.en }}
+
+                </p>
+
+
+                <p
+                    data-lang-en="{{ person.research.en }}"
+                    data-lang-zh="{{ person.research.zh }}"
+                    data-lang-ja="{{ person.research.ja }}">
+
+                    {{ person.research.en }}
+
+                </p>
+
+
+                <div class="person-links">
+
+                    <a href="mailto:{{ person.email }}">
+                        Email
+                    </a>
+
+                    <a href="{{ person.scholar }}">
+                        Google Scholar
+                    </a>
+
+                    <a href="{{ person.github }}">
+                        GitHub
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section section-light">
+
+    <div class="container">
+
+        <h2 class="section-title"
+            data-i18n="people.phd">
+
+            PhD Students
+
+        </h2>
+
+
+        <div class="people-grid">
+
+
+            {% for person in site.data.people.phd %}
+
+
+            <article class="person-card">
+
+
+                <div class="person-photo-placeholder">
+
+                    PhD
+
+                </div>
+
+
+                <div class="person-card-content">
+
+
+                    <h3
+                        data-lang-en="{{ person.name.en }}"
+                        data-lang-zh="{{ person.name.zh }}"
+                        data-lang-ja="{{ person.name.ja }}">
+
+                        {{ person.name.en }}
+
+                    </h3>
+
+
+                    <div class="person-role"
+                         data-lang-en="{{ person.role.en }}"
+                         data-lang-zh="{{ person.role.zh }}"
+                         data-lang-ja="{{ person.role.ja }}">
+
+                        {{ person.role.en }}
+
+                    </div>
+
+
+                    <p
+                        data-lang-en="{{ person.research.en }}"
+                        data-lang-zh="{{ person.research.zh }}"
+                        data-lang-ja="{{ person.research.ja }}">
+
+                        {{ person.research.en }}
+
+                    </p>
+
+
+                    <div class="person-links">
+
+                        <a href="{{ person.github }}">
+                            GitHub
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+            </article>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section">
+
+    <div class="container">
+
+        <h2 class="section-title"
+            data-i18n="people.master">
+
+            Master Students
+
+        </h2>
+
+
+        <div class="people-grid">
+
+
+            {% for person in site.data.people.master %}
+
+
+            <article class="person-card">
+
+
+                <div class="person-photo-placeholder">
+
+                    M
+
+                </div>
+
+
+                <div class="person-card-content">
+
+
+                    <h3
+                        data-lang-en="{{ person.name.en }}"
+                        data-lang-zh="{{ person.name.zh }}"
+                        data-lang-ja="{{ person.name.ja }}">
+
+                        {{ person.name.en }}
+
+                    </h3>
+
+
+                    <div class="person-role"
+                         data-lang-en="{{ person.role.en }}"
+                         data-lang-zh="{{ person.role.zh }}"
+                         data-lang-ja="{{ person.role.ja }}">
+
+                        {{ person.role.en }}
+
+                    </div>
+
+
+                    <p
+                        data-lang-en="{{ person.research.en }}"
+                        data-lang-zh="{{ person.research.zh }}"
+                        data-lang-ja="{{ person.research.ja }}">
+
+                        {{ person.research.en }}
+
+                    </p>
+
+
+                    <div class="person-links">
+
+                        <a href="{{ person.github }}">
+                            GitHub
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+            </article>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,245 @@
+en:
+
+  nav:
+    home: "Home"
+    about: "About"
+    research: "Research"
+    projects: "Projects"
+    publications: "Publications"
+    people: "People"
+    contact: "Contact"
+
+  hero:
+    badge: "Medical AI Research"
+    title1: "Advancing Medicine"
+    title2: "Through Intelligent Vision"
+    description: >
+      MedVision Lab explores artificial intelligence for medical imaging
+      and computational pathology, with a focus on intelligent medical
+      image analysis, multimodal learning and precision medicine.
+    research_button: "Explore Our Research"
+    project_button: "View Projects"
+
+  keywords:
+    one: "Medical Imaging"
+    two: "Computational Pathology"
+    three: "Multimodal AI"
+    four: "Precision Medicine"
+
+  about:
+    label: "ABOUT US"
+    title: "MedVision Lab"
+    intro: >
+      We develop artificial intelligence technologies for understanding
+      medical images and pathological tissue at multiple spatial and
+      semantic scales.
+    description: >
+      Our research combines deep learning, computational pathology,
+      medical image analysis and multimodal learning. We aim to develop
+      reliable and interpretable AI systems that support biomedical
+      research and clinical decision-making.
+
+  research:
+    label: "RESEARCH"
+    title: "Research Directions"
+    subtitle: >
+      We investigate fundamental and translational artificial intelligence
+      problems in medicine.
+
+  projects:
+    label: "PROJECTS"
+    title: "Selected Projects"
+    all: "View All Projects"
+    learn_more: "Learn more →"
+
+  publications:
+    label: "PUBLICATIONS"
+    title: "Selected Publications"
+    all: "View All Publications"
+
+  people:
+    label: "PEOPLE"
+    title: "Our Team"
+    description: >
+      Researchers working at the intersection of medicine,
+      artificial intelligence and computer vision.
+    button: "Meet the Team"
+    pi: "Principal Investigator"
+    phd: "PhD Students"
+    master: "Master Students"
+    alumni: "Alumni"
+    profile: "Profile"
+
+  news:
+    label: "NEWS"
+    title: "Latest News"
+
+  contact:
+    label: "CONTACT"
+    title: "Let's explore the future of medical AI."
+    description: >
+      We welcome academic collaboration and interdisciplinary
+      research opportunities.
+
+  footer:
+    description: >
+      Medical Imaging · Computational Pathology · Artificial Intelligence
+
+
+zh:
+
+  nav:
+    home: "首页"
+    about: "关于我们"
+    research: "研究方向"
+    projects: "研究项目"
+    publications: "论文成果"
+    people: "团队成员"
+    contact: "联系我们"
+
+  hero:
+    badge: "医学人工智能研究"
+    title1: "以智能视觉"
+    title2: "推动医学创新"
+    description: >
+      MedVision Lab 聚焦医学影像与计算病理人工智能研究，
+      探索智能医学图像分析、多模态学习及精准医疗中的关键技术。
+    research_button: "探索研究方向"
+    project_button: "查看研究项目"
+
+  keywords:
+    one: "医学影像"
+    two: "计算病理"
+    three: "多模态人工智能"
+    four: "精准医疗"
+
+  about:
+    label: "关于我们"
+    title: "MedVision Lab"
+    intro: >
+      我们致力于研究人工智能如何在不同空间尺度与语义层次上
+      理解医学图像与病理组织。
+    description: >
+      我们的研究融合深度学习、计算病理、医学图像分析与多模态学习，
+      致力于开发可靠、可解释的医学人工智能技术，
+      为生物医学研究和临床决策提供支持。
+
+  research:
+    label: "研究方向"
+    title: "主要研究方向"
+    subtitle: "探索人工智能在医学领域中的基础理论问题与实际应用。"
+
+  projects:
+    label: "研究项目"
+    title: "代表性研究项目"
+    all: "查看全部项目"
+    learn_more: "了解更多 →"
+
+  publications:
+    label: "论文成果"
+    title: "代表性论文"
+    all: "查看全部论文"
+
+  people:
+    label: "团队成员"
+    title: "我们的团队"
+    description: >
+      团队成员围绕医学、人工智能、计算机视觉与计算病理开展交叉研究。
+    button: "查看团队成员"
+    pi: "团队负责人"
+    phd: "博士研究生"
+    master: "硕士研究生"
+    alumni: "毕业成员"
+    profile: "个人主页"
+
+  news:
+    label: "新闻动态"
+    title: "最新动态"
+
+  contact:
+    label: "联系我们"
+    title: "共同探索医学人工智能的未来。"
+    description: "我们欢迎学术合作以及跨学科科研合作。"
+
+  footer:
+    description: "医学影像 · 计算病理 · 人工智能"
+
+
+ja:
+
+  nav:
+    home: "ホーム"
+    about: "研究室について"
+    research: "研究"
+    projects: "プロジェクト"
+    publications: "論文"
+    people: "メンバー"
+    contact: "お問い合わせ"
+
+  hero:
+    badge: "医療AI研究"
+    title1: "知的ビジョンで"
+    title2: "医療の未来を拓く"
+    description: >
+      MedVision Labは、医用画像、計算病理、
+      マルチモーダル学習、精密医療に関する
+      人工知能研究を行っています。
+    research_button: "研究を見る"
+    project_button: "プロジェクトを見る"
+
+  keywords:
+    one: "医用画像"
+    two: "計算病理"
+    three: "マルチモーダルAI"
+    four: "精密医療"
+
+  about:
+    label: "ABOUT US"
+    title: "MedVision Lab"
+    intro: >
+      AIを用いて医用画像と病理組織を
+      多様な空間・意味スケールから理解する技術を研究しています。
+    description: >
+      深層学習、計算病理、医用画像解析、
+      マルチモーダル学習を融合した医療AI研究を行っています。
+
+  research:
+    label: "RESEARCH"
+    title: "研究分野"
+    subtitle: "医療における人工知能の基礎研究および応用研究に取り組んでいます。"
+
+  projects:
+    label: "PROJECTS"
+    title: "主要プロジェクト"
+    all: "すべてのプロジェクト"
+    learn_more: "詳細を見る →"
+
+  publications:
+    label: "PUBLICATIONS"
+    title: "主要論文"
+    all: "すべての論文"
+
+  people:
+    label: "PEOPLE"
+    title: "研究メンバー"
+    description: >
+      医学、人工知能、コンピュータビジョン、
+      計算病理の融合研究に取り組んでいます。
+    button: "メンバーを見る"
+    pi: "研究代表者"
+    phd: "博士課程"
+    master: "修士課程"
+    alumni: "卒業生"
+    profile: "プロフィール"
+
+  news:
+    label: "NEWS"
+    title: "最新情報"
+
+  contact:
+    label: "CONTACT"
+    title: "医療AIの未来を共に探求しましょう。"
+    description: "学術共同研究および学際的研究を歓迎します。"
+
+  footer:
+    description: "医用画像 · 計算病理 · 人工知能"

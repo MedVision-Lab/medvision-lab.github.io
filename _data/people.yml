@@ -1,0 +1,165 @@
+# =========================================================
+# Principal Investigator
+# =========================================================
+
+pi:
+  - name:
+      en: "Member A"
+      zh: "成员 A"
+      ja: "メンバー A"
+
+    role:
+      en: "Principal Investigator"
+      zh: "团队负责人"
+      ja: "研究代表者"
+
+    affiliation:
+      en: "University / Institution"
+      zh: "大学 / 研究机构"
+      ja: "大学 / 研究機関"
+
+    research:
+      en: "Research Area A, Research Area B."
+      zh: "研究方向 A、研究方向 B。"
+      ja: "研究分野 A、研究分野 B。"
+
+    image: ""
+
+    email: "example@example.com"
+
+    github: "#"
+
+    scholar: "#"
+
+
+# =========================================================
+# PhD Students
+# =========================================================
+
+phd:
+  - name:
+      en: "Member B"
+      zh: "成员 B"
+      ja: "メンバー B"
+
+    role:
+      en: "PhD Student"
+      zh: "博士研究生"
+      ja: "博士課程"
+
+    affiliation:
+      en: "University / Institution"
+      zh: "大学 / 研究机构"
+      ja: "大学 / 研究機関"
+
+    research:
+      en: "Research Area B."
+      zh: "研究方向 B。"
+      ja: "研究分野 B。"
+
+    image: ""
+
+    email: ""
+
+    github: "#"
+
+    scholar: "#"
+
+
+# =========================================================
+# Master Students
+# =========================================================
+
+master:
+  - name:
+      en: "Member C"
+      zh: "成员 C"
+      ja: "メンバー C"
+
+    role:
+      en: "Master Student"
+      zh: "硕士研究生"
+      ja: "修士課程"
+
+    affiliation:
+      en: "University / Institution"
+      zh: "大学 / 研究机构"
+      ja: "大学 / 研究機関"
+
+    research:
+      en: "Research Area C."
+      zh: "研究方向 C。"
+      ja: "研究分野 C。"
+
+    image: ""
+
+    email: ""
+
+    github: "#"
+
+    scholar: "#"
+
+
+  - name:
+      en: "Member D"
+      zh: "成员 D"
+      ja: "メンバー D"
+
+    role:
+      en: "Master Student"
+      zh: "硕士研究生"
+      ja: "修士課程"
+
+    affiliation:
+      en: "University / Institution"
+      zh: "大学 / 研究机构"
+      ja: "大学 / 研究機関"
+
+    research:
+      en: "Research Area D."
+      zh: "研究方向 D。"
+      ja: "研究分野 D。"
+
+    image: ""
+
+    email: ""
+
+    github: "#"
+
+    scholar: "#"
+
+
+  - name:
+      en: "Member E"
+      zh: "成员 E"
+      ja: "メンバー E"
+
+    role:
+      en: "Master Student"
+      zh: "硕士研究生"
+      ja: "修士課程"
+
+    affiliation:
+      en: "University / Institution"
+      zh: "大学 / 研究机构"
+      ja: "大学 / 研究機関"
+
+    research:
+      en: "Research Area A."
+      zh: "研究方向 A。"
+      ja: "研究分野 A。"
+
+    image: ""
+
+    email: ""
+
+    github: "#"
+
+    scholar: "#"
+
+
+# =========================================================
+# Alumni
+# =========================================================
+
+alumni: []
